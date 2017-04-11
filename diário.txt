@@ -1,0 +1,7 @@
+08/04
+Comecei a fazer pesquisas sobre a sequencia de Fibonacci e suas diferentes implementações, motivado pelas aulas de Estruturas Discretas.
+Como não tenho o costume de desenvolver atualmente, utilizei o LUA DEMO para testar meu progama.
+09/04
+Inicio da implementação do programa. Demorei um bom tempo num erro besta na minha primeira sequência, estava colocando num=0. E meu output estava dando errado. Daí perguntei para um amigo o que poderia está dando errado e ele me mostrou que num era igual a 1.
+10/04
+Revisão de código, elaboração da documentação. Tempo total acumulado aproximado gasto com o trabalho 3 horas.

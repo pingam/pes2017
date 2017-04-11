@@ -1,0 +1,66 @@
+-- Trabalho 1 de PES--
+-- Nome do progama: Fibonacci<3 --
+-- Autor: Miguel José --
+-- RJ, 11/04/2017 --
+-- Versão 1.1--
+-- Tamanho do arquivo: 1,22 KB --
+
+ 
+-- Primeira Função que mostra a Sequencia de Fibonacci --
+
+function fibonacci1(parametro)
+
+	local num = 1;
+	local prox_num = 1;
+	local aux = 0;
+
+	while (num <= parametro) do
+		aux = prox_num;
+		io.write(num, ", ")
+		prox_num = num + prox_num;
+		num = aux;
+
+
+	end
+        io.write("...\n")
+
+end
+
+local vMax_Fibo = 1000;
+
+print("Sequencia de Fibonacci ate:");
+print(vMax_Fibo);
+
+-- Chama a função fibonacci mandando como parametro o valor maximo --
+-- para a sequencia que sera mostrada --
+fibonacci1(vMax_Fibo);
+
+--Veremos outra função, usando recursão--
+
+function fibonacci2(parametro)
+    if parametro<3 then
+        return 1
+    else
+        return fibonacci2(parametro-1) + fibonacci2(parametro-2)
+    end
+end
+
+for parametro = 1, 16 do
+    io.write(fibonacci2(parametro), ", ")
+end
+io.write("...\n")
+
+-- Forma iterativa --
+
+function fibonacci3(parametro)
+    local a,b = 1,1
+    for k = 3,parametro do
+        a, b = b, a+b
+    end
+    return b
+end
+
+for parametro = 1, 16 do
+    io.write(fibonacci3(parametro), ", ")
+end
+io.write("...\n")
