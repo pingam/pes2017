@@ -1,7 +1,9 @@
 08/04
-Comecei a fazer pesquisas sobre a sequencia de Fibonacci e suas diferentes implementaÁıes, motivado pelas aulas de Estruturas Discretas.
-Como n„o tenho o costume de desenvolver atualmente, utilizei o LUA DEMO para testar meu progama.
+Comecei a fazer pesquisas sobre a sequencia de Fibonacci e suas diferentes implementa√ß√µes, motivado pelas aulas de Estruturas Discretas.
+Como n√£o tenho o costume de desenvolver atualmente, utilizei o LUA DEMO para testar meu progama.
 09/04
-Inicio da implementaÁ„o do programa. Demorei um bom tempo num erro besta na minha primeira sequÍncia, estava colocando num=0. E meu output estava dando errado. DaÌ perguntei para um amigo o que poderia est· dando errado e ele me mostrou que num era igual a 1.
+Inicio da implementa√ß√£o do programa. Demorei um bom tempo num erro besta na minha primeira sequ√™ncia, estava colocando num=0. E meu output estava dando errado. Da√≠ perguntei para um amigo o que poderia est√° dando errado e ele me mostrou que num era igual a 1.
 10/04
-Revis„o de cÛdigo, elaboraÁ„o da documentaÁ„o. Tempo total acumulado aproximado gasto com o trabalho 3 horas.
+Revis√£o de c√≥digo, elabora√ß√£o da documenta√ß√£o. Tempo total acumulado aproximado gasto com o trabalho 3 horas.
+12/04
+Ap√≥s a ultima aula, mudei o nome das variaveis da terceira fun√ß√£o, pois elas estavam muito "subjetivas".
